@@ -46,8 +46,9 @@ const ProjectSwiper = ({
               <Image
                 alt="slide-image"
                 src={slide.image}
-                fill
-                className="h-[20%] object-cover"
+                width={350}
+                height={300}
+                className="h-[20%] w-[35%]"
               />
               <div
                 className={cn("absolute inset-0", bgBlack && "bg-black/40")}

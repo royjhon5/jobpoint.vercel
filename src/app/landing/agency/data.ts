@@ -49,11 +49,13 @@ const services: ServiceType[] = [
   },
 ];
 
+const city = "/assets/images/city/City.png";
+
 const portfolioSlides: PortfolioSlideType[] = [
   {
     title: "Web Design",
     subTitle: "Branding Process",
-    image: "/assets/images/city/City.png",
+    image: city,
   },
   {
     title: "Web Design",
@@ -69,11 +71,6 @@ const portfolioSlides: PortfolioSlideType[] = [
     title: "Web Design",
     subTitle: "New Gadgets",
     image: "/assets/images/city/City3.png",
-  },
-  {
-    title: "Web Design",
-    subTitle: "New Gadgets",
-    image: "/assets/images/city/City4.png",
   },
 ];
 
