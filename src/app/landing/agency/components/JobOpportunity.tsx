@@ -1,5 +1,4 @@
 import Image from "next/image";
-import headerimage from "@/assets/images/_Heading.png";
 const JobOpportunityComponent = () => {
   const features = [
     "Access to millions of job seekers",
@@ -14,7 +13,7 @@ const JobOpportunityComponent = () => {
         <div className="absolute inset-0 bg-gray-200 opacity-50 rounded-lg"></div>
         <Image
           alt="slide-image"
-          src={headerimage}
+          src={"/assets/images/_Heading.png"}
           fill
           className="h-[20%] object-cover"
         />

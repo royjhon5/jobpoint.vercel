@@ -1,14 +1,15 @@
 import Image from "next/image";
-import logo1 from "../../public/assets/images/logo1.png";
-import logo2 from "../../public/assets/images/logo2.png";
-import logo3 from "../../public/assets/images/logo3.png";
-import logo4 from "../../public/assets/images/logo4.png";
-import logo5 from "../../public/assets/images/logo5.png";
-import logo6 from "../../public/assets/images/logo6.png";
-import logo7 from "../../public/assets/images/logo7.png";
-import logo8 from "../../public/assets/images/logo8.png";
-import logo9 from "../../public/assets/images/logo9.png";
+
 const ServicesMarquee = () => {
+  const logo1 = "/assets/images/logo1.png";
+  const logo2 = "/assets/images/logo2.png";
+  const logo3 = "/assets/images/logo3.png";
+  const logo4 = "/assets/images/logo4.png";
+  const logo5 = "/assets/images/logo5.png";
+  const logo6 = "/assets/images/logo6.png";
+  const logo7 = "/assets/images/logo7.png";
+  const logo8 = "/assets/images/logo8.png";
+  const logo9 = "/assets/images/logo9.png";
   return (
     <div className="relative m-auto flex gap-1 overflow-hidden py-3 ">
       <div className="marquee__group flex min-w-full flex-shrink-0 items-center justify-around gap-28">

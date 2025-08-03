@@ -325,7 +325,7 @@ const TopNavBar = ({
               <div className="ms-auto hidden shrink gap-2 lg:inline-flex">
                 <Link
                   href=""
-                  className="inline-flex items-center gap-2 rounded-full border border-blue-500 bg-white text-black hover:text-white rounded-md px-6 py-1.5 text-base text-white transition-all hover:bg-blue-500"
+                  className="inline-flex items-center gap-2 rounded-full border border-blue-500 bg-white hover:text-white rounded-md px-6 py-1.5 text-base text-white transition-all hover:bg-blue-500"
                 >
                   <span className="hidden sm:block">Sign In</span>
                 </Link>

@@ -8,15 +8,15 @@ import { Thumbs, Controller, Autoplay, EffectFade } from "swiper/modules";
 
 import { homeSwiperSlides } from "../data";
 
+const agency1 = "/assets/images/landing/agency/img-1.jpg";
+const agency2 = "/assets/images/landing/agency/img-2.jpg";
+const agency3 = "/assets/images/landing/agency/img-3.jpg";
+
 import "swiper/css";
 import "swiper/css/effect-fade";
 import Image from "next/image";
 
-const swiperImages = [
-  "/assets/images/landing/agency/img-1.jpg",
-  "/assets/images/landing/agency/img-2.jpg",
-  "/assets/images/landing/agency/img-3.jpg",
-];
+const swiperImages = [agency1, agency2, agency3];
 const Home = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   return (
@@ -90,7 +90,8 @@ const Home = () => {
                   <Image
                     alt="heroImg"
                     src={image}
-                    fill
+                    height={5}
+                    width={5}
                     className="h-full w-full"
                   />
                   <div className="absolute inset-0 bg-black/25" />
