@@ -14,7 +14,7 @@ import {
   pagesDemos,
 } from "@/assets/data";
 
-import jobPointLogo from "../../public/assets/images/jobpointlogo.png";
+import jobPointLogo from "/assets/images/jobpointlogo.png";
 const TopNavBar = ({
   menuItems,
   position,

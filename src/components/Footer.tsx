@@ -6,8 +6,8 @@ import { useForm } from "react-hook-form";
 import { LuMoveRight } from "react-icons/lu";
 import * as yup from "yup";
 
-import logoDark from "../../public/assets/images/jobpointlogo.png";
-import logoLight from "../../public/assets/images/jobpointlogo.png";
+import logoDark from "/assets/images/jobpointlogo.png";
+import logoLight from "/assets/images/jobpointlogo.png";
 import { TextFormInput } from "@/components";
 import Link from "next/link";
 import Image from "next/image";
