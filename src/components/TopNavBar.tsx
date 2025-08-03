@@ -1,5 +1,4 @@
 "use client";
-import { toSentenceCase } from "@/helpers";
 import { cn } from "@/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,13 +11,10 @@ import {
   employersDemos,
   findJobsDemos,
   jobDemos,
-  landingPages,
   pagesDemos,
 } from "@/assets/data";
 
-import logoDark from "@/assets/images/logo-dark.png";
-import logoLight from "@/assets/images/logo-light.png";
-import jobPointLogo from "@/assets/images/jobpointlogo.png";
+import jobPointLogo from "../../public/assets/images/jobpointlogo.png";
 const TopNavBar = ({
   menuItems,
   position,
