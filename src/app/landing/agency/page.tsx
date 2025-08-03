@@ -1,11 +1,7 @@
 import ServicesMarquee from "@/components/ServicesMarquee";
 import type { Metadata } from "next";
 import TopNavBar from "@/components/TopNavBar";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
-import FAQs from "./components/FAQs";
 import Home from "./components/Home";
-import Services2 from "./components/Services2";
 import BrowseByCategory from "./components/BrowseByCategory";
 import FeaturedJobs from "./components/FeaturedJobs";
 import JobsByLocation from "./components/JobsByLocation";

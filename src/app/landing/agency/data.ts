@@ -6,11 +6,6 @@ import type {
   ServiceType,
   SlideType,
 } from "./types";
-
-import agency6 from "@/assets/images/landing/agency/img-6.jpg";
-import agency7 from "@/assets/images/landing/agency/img-7.jpg";
-import agency8 from "@/assets/images/landing/agency/img-8.jpg";
-import agency9 from "@/assets/images/landing/agency/img-9.jpg";
 import agency13 from "@/assets/images/landing/agency/img-13.jpg";
 import agency14 from "@/assets/images/landing/agency/img-14.jpg";
 import agency15 from "@/assets/images/landing/agency/img-15.jpg";
