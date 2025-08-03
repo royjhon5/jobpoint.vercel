@@ -6,15 +6,6 @@ import type {
   ServiceType,
   SlideType,
 } from "./types";
-import agency13 from "@/assets/images/landing/agency/img-13.jpg";
-import agency14 from "@/assets/images/landing/agency/img-14.jpg";
-import agency15 from "@/assets/images/landing/agency/img-15.jpg";
-
-import city from "@/assets/images/city/City.png";
-import city1 from "@/assets/images/city/City1.png";
-import city2 from "@/assets/images/city/City2.png";
-import city3 from "@/assets/images/city/City3.png";
-import city4 from "@/assets/images/city/City4.png";
 
 const homeSwiperSlides: SlideType[] = [
   {
@@ -62,27 +53,27 @@ const portfolioSlides: PortfolioSlideType[] = [
   {
     title: "Web Design",
     subTitle: "Branding Process",
-    image: city,
+    image: "/assets/images/city/City.png",
   },
   {
     title: "Web Design",
     subTitle: "Digital Platform",
-    image: city1,
+    image: "/assets/images/city/City1.png",
   },
   {
     title: "Brand",
     subTitle: "Coder Studio",
-    image: city2,
+    image: "/assets/images/city/City2.png",
   },
   {
     title: "Web Design",
     subTitle: "New Gadgets",
-    image: city3,
+    image: "/assets/images/city/City3.png",
   },
   {
     title: "Web Design",
     subTitle: "New Gadgets",
-    image: city4,
+    image: "/assets/images/city/City4.png",
   },
 ];
 
@@ -115,21 +106,21 @@ const blogs: BlogType[] = [
     description:
       "Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollictudin, lorem quis bibendum auctor...",
     no: "06",
-    image: agency13,
+    image: "/assets/images/landing/agency/img-13.jpg",
   },
   {
     title: "Digital Marketing.",
     description:
       "Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollictudin, lorem quis bibendum auctor...",
     no: "05",
-    image: agency14,
+    image: "/assets/images/landing/agency/img-14.jpg",
   },
   {
     title: "Good thinking.",
     description:
       "Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor aliquet. Aenean sollictudin, lorem quis bibendum auctor...",
     no: "04",
-    image: agency15,
+    image: "/assets/images/landing/agency/img-15.jpg",
   },
 ];
 

@@ -14,7 +14,6 @@ import {
   pagesDemos,
 } from "@/assets/data";
 
-import jobPointLogo from "/assets/images/jobpointlogo.png";
 const TopNavBar = ({
   menuItems,
   position,
@@ -82,14 +81,14 @@ const TopNavBar = ({
               <div className="flex w-full items-center justify-between lg:w-auto">
                 <Link href="/" className="flex flex-row gap-3 items-center">
                   <Image
-                    src={jobPointLogo}
+                    src={"/assets/images/jobpointlogo.png"}
                     alt="logo"
                     height={140}
                     width={60}
                     className="flex h-12 dark:hidden"
                   />
                   <Image
-                    src={jobPointLogo}
+                    src={"/assets/images/jobpointlogo.png"}
                     alt="logo"
                     height={140}
                     width={60}
@@ -345,14 +344,14 @@ const TopNavBar = ({
         <div className="flex h-[74px] items-center justify-between border-b border-dashed border-default-200 px-4 transition-all duration-300">
           <Link href="/" className="flex flex-row gap-3 items-center">
             <Image
-              src={jobPointLogo}
+              src={"/assets/images/jobpointlogo.png"}
               alt="logo"
               height={140}
               width={60}
               className="flex h-12 dark:hidden"
             />
             <Image
-              src={jobPointLogo}
+              src={"/assets/images/jobpointlogo.png"}
               alt="logo"
               height={140}
               width={60}

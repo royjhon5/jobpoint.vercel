@@ -4,12 +4,12 @@ import { FreeMode, Thumbs } from "swiper/modules";
 import { cn } from "@/utils";
 
 import "swiper/css";
-import Image, { type StaticImageData } from "next/image";
+import Image from "next/image";
 
 type ProjectSlideType = {
   title: string;
   subTitle: string;
-  image: StaticImageData;
+  image: string;
 };
 
 const ProjectSwiper = ({
@@ -46,6 +46,7 @@ const ProjectSwiper = ({
               <Image
                 alt="slide-image"
                 src={slide.image}
+                fill
                 className="h-[20%] object-cover"
               />
               <div

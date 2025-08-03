@@ -6,8 +6,6 @@ import { useForm } from "react-hook-form";
 import { LuMoveRight } from "react-icons/lu";
 import * as yup from "yup";
 
-import logoDark from "/assets/images/jobpointlogo.png";
-import logoLight from "/assets/images/jobpointlogo.png";
 import { TextFormInput } from "@/components";
 import Link from "next/link";
 import Image from "next/image";
@@ -32,14 +30,14 @@ const Footer = () => {
               <div>
                 <Link href="">
                   <Image
-                    src={logoDark}
+                    src={"/assets/images/jobpointlogo.png"}
                     height={40}
                     width={60}
                     alt="logo"
                     className="flex h-10 dark:hidden"
                   />
                   <Image
-                    src={logoLight}
+                    src={"/assets/images/jobpointlogo.png"}
                     height={40}
                     width={60}
                     alt="logo"

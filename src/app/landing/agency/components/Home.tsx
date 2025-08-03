@@ -8,24 +8,24 @@ import { Thumbs, Controller, Autoplay, EffectFade } from "swiper/modules";
 
 import { homeSwiperSlides } from "../data";
 
-import bgLineImg from "@/assets/images/other/bg-lines-1.svg";
-
-import agency1 from "@/assets/images/landing/agency/img-1.jpg";
-import agency2 from "@/assets/images/landing/agency/img-2.jpg";
-import agency3 from "@/assets/images/landing/agency/img-3.jpg";
-
 import "swiper/css";
 import "swiper/css/effect-fade";
 import Image from "next/image";
 
-const swiperImages = [agency1, agency2, agency3];
+const swiperImages = [
+  "/assets/images/landing/agency/img-1.jpg",
+  "/assets/images/landing/agency/img-2.jpg",
+  "/assets/images/landing/agency/img-3.jpg",
+];
 const Home = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   return (
     <section
       id="home"
       className={"bg-cover bg-[#FFEEEB] dark:bg-black bg-no-repeat"}
-      style={{ backgroundImage: `url(${bgLineImg.src})` }}
+      style={{
+        backgroundImage: `url(${"/assets/images/other/bg-lines-1.svg"})`,
+      }}
     >
       <div className="relative grid grid-cols-1 items-center xl:grid-cols-5">
         <div className="relative z-10 order-2 -mt-24 p-6 xl:order-none xl:col-span-2 xl:-me-24 xl:mt-0 xl:p-0">
@@ -87,7 +87,12 @@ const Home = () => {
             {swiperImages.map((image, idx) => {
               return (
                 <SwiperSlide key={idx} className="relative">
-                  <Image alt="heroImg" src={image} className="h-full w-full" />
+                  <Image
+                    alt="heroImg"
+                    src={image}
+                    fill
+                    className="h-full w-full"
+                  />
                   <div className="absolute inset-0 bg-black/25" />
                 </SwiperSlide>
               );

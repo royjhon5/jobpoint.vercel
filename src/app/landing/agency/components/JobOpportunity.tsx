@@ -15,6 +15,7 @@ const JobOpportunityComponent = () => {
         <Image
           alt="slide-image"
           src={headerimage}
+          fill
           className="h-[20%] object-cover"
         />
       </div>
